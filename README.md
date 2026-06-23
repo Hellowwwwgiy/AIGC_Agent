@@ -44,5 +44,27 @@ AIGC_Agent/
 ├── .gitignore # Git忽略文件配置
 └── README.md # 项目说明文档
 ```
+## 🔧 虚拟环境配置
+
+### 创建虚拟环境
+```
+bash
+python -m venv venv
+```
+### 激活虚拟环境
+1. Windows:
+.\venv\Scripts\activate
+2. Linux/Mac:
+source venv/bin/activate
+激活后命令行会显示 (venv) 前缀。
+
+### 安装依赖
+```bash
+pip install opencv-python numpy
+```
+
+### 运行项目
+python main.py
+
 ## 联系方式
 GitHub: @Hellowwwwgiy
