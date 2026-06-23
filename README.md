@@ -64,7 +64,9 @@ pip install opencv-python numpy
 ```
 
 ### 运行项目
-python main.py
+```python 
+main.py
+```
 
 ## 联系方式
 GitHub: @Hellowwwwgiy
