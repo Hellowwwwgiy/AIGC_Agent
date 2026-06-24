@@ -38,8 +38,8 @@ AIGC_Agent/
 ├── agents/ # 评估代理模块
 │ ├── init.py
 │ ├── image_quality_agent.py # 图像质量评估代理
-│ └──deepseek_tools.py # 工具函数
- video_quality_agent.py # 视频质量评估代理
+│ ├──deepseek_tools.py # 工具函数
+| └──video_quality_agent.py # 视频质量评估代理
 ├── requirements.txt # 依赖包列表
 ├── .gitignore # Git忽略文件配置
 └── README.md # 项目说明文档
